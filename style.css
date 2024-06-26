@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.cronometro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.display {
+    font-family: "Dhurjati", sans-serif; 
+    color: rgb(255, 145, 0);
+    font-size: 8em; 
+    margin-bottom: 20px; 
+}
+#start {
+    font-family: 'Courier New', Courier, monospace;
+    height: 2em;
+    width: 4em;
+    font-size: 2em;
+    border-radius: 3em;
+    border: none;
+    background-color: rgb(3, 88, 3);
+    color: white;
+    font-family: "Dhurjati", sans-serif;
+
+}
+
+#pause{
+    font-family: 'Courier New', Courier, monospace;
+    height: 2em;
+    width: 4em;
+    font-size: 2em;
+    border-radius: 3em;
+    border: none;
+    background-color: rgb(3, 88, 3);
+    color: white;
+    font-family: "Dhurjati", sans-serif; 
+
+}
+
+#reset{
+    font-family: 'Courier New', Courier, monospace;
+    height: 2em;
+    width: 4em;
+    font-size: 2em;
+    border-radius: 3em;
+    border: none;
+    background-color: rgb(3, 88, 3);
+    color: white;
+    font-family: "Dhurjati", sans-serif;}
+
+#start:hover{
+    background-color: rgb(2, 32, 2);
+}
+
+#pause:hover{
+    background-color: rgb(2, 32, 2);
+}
+
+#reset:hover{
+    background-color: rgb(2, 32, 2);
+}
