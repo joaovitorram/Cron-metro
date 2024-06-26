@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="stopwatch-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dhurjati&display=swap" rel="stylesheet">
+    <title>Cronômetro</title>
+</head>
+<body>
+    <div class="cronometro"> 
+        <div class="display">
+            <span id="hora">00 </span> :
+            <span id="minuto">00 </span> :
+            <span id="segundo">00 </span> :
+            <span id="milesimo">000</span>
+        </div>
+        <div class="botoes">
+        <button onclick="start()" id="start">Iniciar</button>
+        <button onclick="pause()" id="pause">Pausar</button>
+        <button onclick="reset()" id="reset">Resetar</button>
+    </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
